@@ -9,6 +9,15 @@ module.exports = {
         exclude: /node_modules/,
         use: ["babel-loader"],
       },
+      {
+        test: /\.jsx?$/,
+        use: ["babel-loader"],
+        exclude: /node_modules/,
+      },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      },
     ],
   },
   plugins: [
@@ -21,6 +30,6 @@ module.exports = {
     filename: "bundle.js",
   },
   devServer: {
-    allowedHosts: ['.gitpod.io'],
-  }
+    allowedHosts: [".gitpod.io"],
+  },
 };
