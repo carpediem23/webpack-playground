@@ -1,0 +1,8 @@
+dist/
+node_modules/
+public/
+.eslintrc.json
+.gitignore
+.npmignore
+webpack.config.js
+__tests__
