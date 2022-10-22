@@ -1,12 +1,12 @@
 import React from 'react';
 
 interface IComponent {
-  text?: String;
+  text?: string;
 }
 
 const Component: React.FC<IComponent> = ({ text = 'Component sample' }) => (
   <div>
-    <label>{ text }</label>
+    <label>{text}</label>
   </div>
 );
 

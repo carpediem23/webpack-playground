@@ -1,8 +1,15 @@
 {
-    "semi": true,
-    "tabWidth": 2,
-    "printWidth": 100,
-    "singleQuote": true,
-    "trailingComma": "none",
-    "jsxBracketSameLine": true
-  }
+  "semi": true,
+  "tabWidth": 12,
+  "printWidth": 100,
+  "singleQuote": true,
+  "trailingComma": "none",
+  "overrides": [
+    {
+      "files": "*.css",
+      "options": {
+        "parser": "css"
+      }
+    }
+  ]
+}
