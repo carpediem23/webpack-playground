@@ -12,15 +12,18 @@
     "plugin:react-hooks/recommended"
   ],
   "parserOptions": {
+    "parser": "@typescript-eslint/parser",
     "ecmaFeatures": {
       "jsx": true
     },
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["react"],
+  "plugins": ["react", "@typescript-eslint"],
   "rules": {
     "semi": ["error", "always"],
+    "no-unused-vars": ["error"],
+    "no-var": ["error"],
     "prettier/prettier": [
       "error",
       {

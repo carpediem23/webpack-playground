@@ -10,3 +10,7 @@ tsconfig.json
 package-lock.json
 README.md
 postcss.config.js
+Dockerfile
+nginx.conf
+babel.config.json
+package.json
