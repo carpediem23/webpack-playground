@@ -14,3 +14,4 @@ Dockerfile
 nginx.conf
 babel.config.json
 package.json
+**/*.css
