@@ -9,8 +9,8 @@
     "start": "webpack --mode development",
     "lint": "npx eslint .",
     "lint:fix": "npx eslint --fix",
-    "prettier": "npx prettier src --check",
-    "prettier:fix": "npx run prettier -- --write",
+    "prettier": "npx prettier --check src",
+    "prettier:fix": "npx prettier --write src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
