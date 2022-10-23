@@ -1,6 +1,6 @@
 import React from 'react';
 
-interface IComponent {
+type IComponent = {
   text?: string;
 }
 
