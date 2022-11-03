@@ -4,8 +4,8 @@
   "description": "webpack-playground",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode development",
-    "start": "webpack-dev-server --mode development --hot",
+    "build": "npx webpack --mode development",
+    "start": "npx webpack-dev-server --mode development --hot",
     "lint": "npx eslint **",
     "lint:fix": "npx eslint --fix **",
     "prettier": "npx prettier --check **",
